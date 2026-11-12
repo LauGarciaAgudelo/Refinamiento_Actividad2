@@ -1,0 +1,51 @@
+test_cp_cb_01_categoria_no_entera (test_camino_basico.TestCaminoBasico) ... ok
+test_cp_cb_02_categoria_inexistente (test_camino_basico.TestCaminoBasico) ... ok
+test_cp_cb_03_horas_no_numericas (test_camino_basico.TestCaminoBasico) ... ok
+test_cp_cb_04_horas_negativas (test_camino_basico.TestCaminoBasico) ... ok
+test_cp_cb_05_horas_infinitas (test_camino_basico.TestCaminoBasico) ... ok
+test_cp_cb_06_salario_normal (test_camino_basico.TestCaminoBasico) ... ok
+test_cp_cb_07_salario_extra (test_camino_basico.TestCaminoBasico) ... ok
+test_cp_co_01_categoria_tipo_invalido (test_condiciones.TestCondiciones) ... ok
+test_cp_co_02_categoria_inexistente (test_condiciones.TestCondiciones) ... ok
+test_cp_co_03_categoria_valida (test_condiciones.TestCondiciones) ... ok
+test_cp_co_04_horas_tipo_invalido (test_condiciones.TestCondiciones) ... ok
+test_cp_co_05_horas_negativas (test_condiciones.TestCondiciones) ... ok
+test_cp_co_06_horas_infinitas (test_condiciones.TestCondiciones) ... ok
+test_cp_co_07_sin_horas_extras (test_condiciones.TestCondiciones) ... ok
+test_cp_co_08_con_horas_extras (test_condiciones.TestCondiciones) ... ok
+test_cp_pe_01_categoria_1_normal (test_particion_equivalencia.TestParticionEquivalencia) ... ok
+test_cp_pe_02_categoria_2_normal (test_particion_equivalencia.TestParticionEquivalencia) ... ok
+test_cp_pe_03_categoria_3_normal (test_particion_equivalencia.TestParticionEquivalencia) ... ok
+test_cp_pe_04_categoria_1_extras (test_particion_equivalencia.TestParticionEquivalencia) ... ok
+test_cp_pe_05_categoria_2_extras (test_particion_equivalencia.TestParticionEquivalencia) ... ok
+test_cp_pe_06_categoria_3_extras (test_particion_equivalencia.TestParticionEquivalencia) ... ok
+test_cp_pe_07_categoria_inferior (test_particion_equivalencia.TestParticionEquivalencia) ... ok
+test_cp_pe_08_categoria_superior (test_particion_equivalencia.TestParticionEquivalencia) ... ok
+test_cp_pe_09_categoria_texto (test_particion_equivalencia.TestParticionEquivalencia) ... ok
+test_cp_pe_10_horas_negativas (test_particion_equivalencia.TestParticionEquivalencia) ... ok
+test_cp_pe_11_horas_texto (test_particion_equivalencia.TestParticionEquivalencia) ... ok
+test_cp_pe_12_horas_nan (test_particion_equivalencia.TestParticionEquivalencia) ... ok
+test_35_horas_categoria_3 (test_salario.TestCalcularSalario) ... ok
+test_40_horas_categoria_1 (test_salario.TestCalcularSalario) ... ok
+test_41_horas_categoria_1 (test_salario.TestCalcularSalario) ... ok
+test_45_horas_categoria_2 (test_salario.TestCalcularSalario) ... ok
+test_categoria_invalida (test_salario.TestCalcularSalario) ... ok
+test_cero_horas (test_salario.TestCalcularSalario) ... ok
+test_horas_negativas (test_salario.TestCalcularSalario) ... ok
+test_cp_vl_01_horas_menor_cero (test_valores_limite.TestValoresLimite) ... ok
+test_cp_vl_02_horas_igual_cero (test_valores_limite.TestValoresLimite) ... ok
+test_cp_vl_03_horas_mayor_cero (test_valores_limite.TestValoresLimite) ... ok
+test_cp_vl_04_horas_menor_40 (test_valores_limite.TestValoresLimite) ... ok
+test_cp_vl_05_horas_igual_40 (test_valores_limite.TestValoresLimite) ... ok
+test_cp_vl_06_horas_mayor_40 (test_valores_limite.TestValoresLimite) ... ok
+test_cp_vl_07_categoria_menor_1 (test_valores_limite.TestValoresLimite) ... ok
+test_cp_vl_08_categoria_igual_1 (test_valores_limite.TestValoresLimite) ... ok
+test_cp_vl_09_categoria_mayor_1 (test_valores_limite.TestValoresLimite) ... ok
+test_cp_vl_10_categoria_menor_3 (test_valores_limite.TestValoresLimite) ... ok
+test_cp_vl_11_categoria_igual_3 (test_valores_limite.TestValoresLimite) ... ok
+test_cp_vl_12_categoria_mayor_3 (test_valores_limite.TestValoresLimite) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 0.004s
+
+OK
